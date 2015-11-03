@@ -12,7 +12,9 @@
         android:text="Send"
         android:id="@+id/sendSMSButton"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignRight="@+id/editText2"
+        android:layout_alignEnd="@+id/editText2"
+        android:layout_marginBottom="53dp" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -35,12 +37,10 @@
         android:editable="true"
         android:hint="Type your message here"
         android:textColor="#12fff9"
+        android:layout_marginBottom="79dp"
         android:layout_above="@+id/sendSMSButton"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="91dp"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentStart="true" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -62,5 +62,14 @@
         android:layout_below="@+id/editText"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Gage, Forest, Zea, Thomas" />
 
 </RelativeLayout>
