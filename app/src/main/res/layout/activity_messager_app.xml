@@ -37,8 +37,7 @@
         android:editable="true"
         android:hint="Type your message here"
         android:textColor="#12fff9"
-        android:layout_marginBottom="79dp"
-        android:layout_above="@+id/sendSMSButton"
+        android:layout_below="@+id/editText2"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
@@ -71,5 +70,14 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:text="Gage, Forest, Zea, Thomas" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/quickSpinner"
+        android:layout_above="@+id/sendSMSButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="41dp" />
 
 </RelativeLayout>
