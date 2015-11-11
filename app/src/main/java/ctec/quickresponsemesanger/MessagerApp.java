@@ -1,5 +1,9 @@
 package ctec.quickresponsemesanger;
 
+/**
+ *  @author Gage Hopkins
+ */
+
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextWatcher;
